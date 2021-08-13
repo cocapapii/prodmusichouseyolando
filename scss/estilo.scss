@@ -1,0 +1,119 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+//ejemplo bucle
+
+@for $i from 1 through 4 {
+
+  .cubos-#{$i} {
+    height: 100px * $i;
+    border: 3px solid red;
+    margin: 0;
+    color: yellow;
+  }
+}
+}
+.bodyy{
+    background-color: rgb(0, 0, 0);
+    .imagenes{
+      text-decoration: none;
+        }
+        a {text-decoration: none;}
+a:hover {text-decoration: none;}
+p{
+  text-decoration: none;
+  color: #ffffff;
+}
+h2{
+  text-decoration: none;
+  color: #ffffff;
+}
+h5{
+  text-decoration: none;
+  color: #ffffff;
+}
+label{
+  text-decoration: none;
+  color: #ffffff;
+}
+ul{
+  text-decoration: none;
+  color: #ffffff;
+}
+table{
+  text-decoration: none;
+  color: #ffffff;
+}
+}
+    .htitle{
+        color: rgb(255, 255, 255);
+        &:hover{
+            text-decoration: none;
+            
+        }
+    }
+    .a1{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: 50px;
+        font-size:  25px;
+        margin: auto;
+        
+    }
+    .subtitdos{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    margin: 50px 0 50px 0;
+    .firstli{
+    display: inline-block;
+    width : 10%;
+    position: relative;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-family: 'Catamaran', sans-serif;
+    text-decoration: none;
+   .auno{
+       text-decoration: none;
+       margin-top: 10px;
+       color: rgb(255, 254, 254);
+       font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+       &:hover{
+           background-color: #1c0291;
+           transform: scale(1.2 1.2);
+          
+
+  
+        .hdos{
+            color: white;
+                                               }
+            
+                                       }
+                          
+                                  }  
+
+                         }
+                 }
+             
+    
+       
+      .logo{
+        display: flex;
+        justify-content: center;
+      }
+      .container{
+        margin-top: 50px ;
+        margin-bottom: 50px;
+        }
+        footer{
+          display: flex;
+          justify-content: center;
+          padding: 30px;
+          
+        
+        }
+        .iconoFooter{
+          height: 30px;
+        }
